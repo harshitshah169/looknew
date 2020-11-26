@@ -98,7 +98,7 @@ const UploadImages = () => {
                     </div>
                     <h5 style={{marginTop: '20px'}}>{productType} - {productPrice}</h5>
                 </form>
-                <button onClick={handleLogOut} style={{marginTop: '15px', width: '100px', height: '25px', fontSize: '16px', cursor: 'pointer', display: accessAllowed ? 'block' :'inline'}}>Log Out</button>
+                <button onClick={handleLogOut} style={{marginTop: '15px', width: '100px', height: '25px', fontSize: '16px', cursor: 'pointer', display: accessAllowed ? 'inline' :'none'}}>Log Out</button>
             </div>
         )
     }
