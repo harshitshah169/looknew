@@ -13,12 +13,12 @@ class ProductContainer extends React.Component {
             <div id="products">
                 <h2 className="heading">Choose product</h2>
                 <div className="container">
-                    <ProductType imageName={MansClothing} productTitle="Man's Clothing" link="mans-clothing-page"/>
-                    <ProductType imageName={MansShoes} productTitle="Man's Shoes" link="mans-shoes-page"/>
-                    <ProductType imageName={MansAccessories} productTitle="Man's Accessories" link="mans-accessories-page"/>
-                    <ProductType imageName={WomansClothing} productTitle="Woman's Clothing" link="womans-clothing-page"/>
-                    <ProductType imageName={WomansShoes} productTitle="Woman's Shoes" link="womans-shoes-page"/>
-                    <ProductType imageName={WomansAccessories} productTitle="Woman's Accessories" link="womans-accessories-page"/>
+                    <ProductType imageName={MansClothing} productTitle="Men Clothing" link="mans-clothing-page"/>
+                    <ProductType imageName={MansShoes} productTitle="Men Shoes" link="mans-shoes-page"/>
+                    <ProductType imageName={MansAccessories} productTitle="Men Accessories" link="mans-accessories-page"/>
+                    <ProductType imageName={WomansClothing} productTitle="Women Clothing" link="womans-clothing-page"/>
+                    <ProductType imageName={WomansShoes} productTitle="Women Shoes" link="womans-shoes-page"/>
+                    <ProductType imageName={WomansAccessories} productTitle="Women Accessories" link="womans-accessories-page"/>
                 </div>
             </div>
         )

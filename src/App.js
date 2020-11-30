@@ -29,3 +29,7 @@ function App() {
 }
 
 export default App;
+
+/*HOW TO DEPLOY SITE TO FIREBASE
+https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/
+*/

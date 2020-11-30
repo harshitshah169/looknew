@@ -10,7 +10,6 @@ class HomePage extends React.Component {
         return (
             <div>
                 <Header />
-                <SectionVideo />
                 <ProductContainer />
                 <ContactUs />
             </div>
