@@ -63,7 +63,7 @@ const UploadImages = () => {
     
         return (
             <div className="upload-image-wrapper" style={{textAlign: 'center', marginTop: '20px'}}>
-                <h3>Please do not make changes to this page</h3>
+                <h2>Upload Images to the Website</h2>
                 <form onSubmit={handleOnPasswordSubmit}>
                     <input className="btn-upload-image" style={{background: '#ffffff', cursor: 'default'}} onChange={handleOnPasswordChange} type="password" value={password} placeholder="Enter password"/>
                     <div><button  style={{width: '100px', height: '25px', fontSize: '16px', cursor: 'pointer'}} type="submit">Submit</button></div>
